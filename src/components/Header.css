@@ -1,0 +1,31 @@
+.header_logoimage {
+  width: 5vw;
+  height: auto;
+  margin: 10px;
+  margin-left: 25%;
+  object-fit: contain;
+}
+.header {
+  display: flex;
+  flex: 1;
+}
+.header_logo {
+  display: flex;
+}
+.header_right {
+  position: absolute;
+
+  display: flex;
+  flex: 1;
+  right: 20px;
+  right: 2px;
+  padding: 2px;
+}
+.header_right > h3 {
+  padding: 12px;
+
+  font-weight: 400;
+}
+.header_logo > h2 {
+  color: #ff8d8d;
+}

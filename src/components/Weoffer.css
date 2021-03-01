@@ -1,0 +1,19 @@
+.offer {
+  box-shadow: 5px 5px 2px 5px #cfcfcf;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: fit-content;
+}
+.weoffer {
+  width: 75%;
+  display: flex;
+  overflow: scroll;
+  justify-content: space-between;
+  align-items: center;
+  object-fit: contain;
+}
+.weoffer::-webkit-scrollbar {
+  display: none;
+}

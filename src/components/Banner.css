@@ -1,0 +1,74 @@
+.banner_image {
+  height: 500px;
+  margin-left: 15%;
+  box-shadow: 10px 10px 8px #888888;
+  overflow: hidden;
+  position: relative;
+  margin-right: 15px;
+  border-radius: 25px;
+}
+
+.banner {
+  display: flex;
+  position: relative;
+}
+.banner_book > input {
+  padding: 10px;
+  outline-width: 0;
+}
+.banner_book {
+  margin-left: 2%;
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  top: 25px;
+  padding: 35px;
+  background: #ffffff;
+  flex-direction: column;
+  border-radius: 12px !important;
+  width: 420px;
+  box-shadow: 1px 6px 20px rgba(0, 0, 0, 0.2) !important;
+}
+.banner_book > button {
+  padding: 10px;
+  background-color: #ff005e;
+  outline-width: 0;
+  border: 0;
+  border-radius: 2px;
+  margin-top: 15px;
+}
+.date {
+  display: flex;
+}
+.adchild {
+  display: flex;
+}
+.adchild > input {
+  padding: 15px;
+}
+.adchild > .MuiFormControl-root {
+  padding: 10px !important;
+}
+.date {
+  padding: 15px;
+}
+.date {
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 640px) {
+  .banner_image {
+    width: 0;
+  }
+  .banner_book {
+    width: 90%;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-hieght: 500px) {
+  .banner_image {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+  }
+}

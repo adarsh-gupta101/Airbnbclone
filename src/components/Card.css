@@ -1,0 +1,21 @@
+.card_itemImage {
+  min-width: 200px;
+  min-height: 200px;
+  width: 100%;
+  object-fit: fill;
+}
+.cards {
+  margin-top: 55px;
+  margin-left: 25px;
+  padding: 1px;
+  width: 75%;
+  display: flex;
+  transition: transform 100ms ease-in;
+  overflow: hidden;
+}
+.cards:hover {
+  transform: scale(1.07);
+}
+.card_item {
+  width: 400px;
+}
