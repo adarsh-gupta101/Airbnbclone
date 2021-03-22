@@ -10,9 +10,12 @@ import { useEffect, useState } from "react";
 function App() {
   const [db, setdb] = useState([]);
   useEffect(() => {
-    axios.get("/details").then((response) => {
-      setdb(response.data);
-    });
+    const fetch = async () => {
+      await axios.get("/details").then((response) => {
+        setdb(response.data);
+      });
+    };
+    fetch();
   }, []);
   console.table(db);
 
