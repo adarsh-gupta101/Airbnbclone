@@ -25,7 +25,6 @@ function App() {
       <Banner />
       <div className="card_section">{/* <Cards values={db} />; */}</div>
       <div id="cdc" style={{ display: "flex" }}>
-        <Cards db={db} />
         <Cards
           src="https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg"
           title="3 Bedroom Flat in Bournemouth"
